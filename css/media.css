@@ -1,0 +1,83 @@
+@media all and (min-width: 1150px) {}
+	.trsp:hover {
+		background-color: #00897b;
+		border-color: transparent;
+	}
+
+	.green:hover {
+		border: 2px solid;
+		background-color: transparent;
+	}
+
+
+	.nav-link:hover {
+		background-color: brown;
+		color: white;
+	}
+
+	.search:focus {
+ border-bottom: 1px solid;
+}
+
+	.second-item:hover {
+		background-color: #0879bb;
+		color: #fff;
+		transform: scale(1.05);
+		box-shadow: 0 0 40px 5px rgba(0,0,0.3);
+	}
+
+	.second-item:hover .readmore {
+		background-color: #58388372;
+		color: #f5758475;
+	}
+
+	.second-item:hover .icon {
+		fill: #fff;
+	}
+}
+
+@media all and (max-width: 768px) {
+	.nav-wrapper {
+		overflow: auto;
+		word-spacing: nowrap;
+		}
+
+		.logo, .search-wrapper, .topnav {
+			display: inline-block;
+		}
+
+		.h1 {
+			font-size: 8vw;
+		}
+
+		.header-btn {
+			width: 90vw;
+			height: 60px;
+			margin-top: 30vw;
+		}
+
+		.header-btn + .header-btn {
+			margin-left: 0;
+		}
+
+		.section-subtitle {
+			width: 85%;
+
+		}
+
+		.second-item, .first-item {
+			width: 90%;
+			margin: 20px auto;
+			padding-left: 10%;
+			padding-right: 10%;
+		}
+
+		.first-box {
+			flex-wrap: wrap;
+		}
+	}
+
+
+
+
+
