@@ -39,7 +39,7 @@
 @media all and (max-width: 768px) {
 	.nav-wrapper {
 		overflow: auto;
-		word-spacing: nowrap;
+		white-space: nowrap;
 		}
 
 		.logo, .search-wrapper, .topnav {
